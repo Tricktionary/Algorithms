@@ -32,7 +32,7 @@ public class Part5 {
 		
 		for (String line = r.readLine(); line != null; line = r.readLine()){
 			
-			if(map.containsKey(line)){     //If it does not have it
+			if(map.containsKey(line)){     //If it does have it
    				map.put(line, map.get(line)+1);
    				w.println(map.get(line));
    			}
